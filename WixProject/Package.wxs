@@ -1,0 +1,9 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Name="Portfolio Task 1" Manufacturer="Victoria Villarroel" Version="1.0.0.0" UpgradeCode="7ffa13c6-14d5-489b-91fa-75fbee7eafa4">
+    <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+
+    <Feature Id="Main">
+      <ComponentGroupRef Id="ExampleComponents" />
+    </Feature>
+  </Package>
+</Wix>

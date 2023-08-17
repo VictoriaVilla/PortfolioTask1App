@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="file:///C:/Users/victo/source/repos/SWE40006/PortfolioTask1App/WapProject/WapProject.appinstaller"
+	Version="1.0.0.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="cfde17ba-b785-4239-b271-45cb2df03b1b"
+		Version="1.0.0.0"
+		Publisher="CN=victo"
+		Uri="file:///C:/Users/victo/source/repos/SWE40006/PortfolioTask1App/WapProject/WapProject_1.0.0.0_Test/WapProject_1.0.0.0_AnyCPU.msixbundle" />
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>

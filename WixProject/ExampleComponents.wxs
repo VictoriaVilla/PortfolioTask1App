@@ -1,0 +1,12 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Fragment>
+    <ComponentGroup Id="ExampleComponents" Directory="INSTALLFOLDER">
+		<Component Id="PortfolioTask1App.exe" Guid="EC422735-6642-47FE-9DCA-E27AA13A869E" >
+			<File Id="PortfolioTask1App.exe" Name="PortfolioTask1App.exe" Source="$(var.PortfolioTask1App.TargetDir)PortfolioTask1App.exe"></File>
+		</Component>
+		<Component Id="MixLibrary.dll" Guid="F19DC5CD-918C-4065-9C72-8AF0F01D72AC" >
+			<File Id="MixLibrary.dll" Name="MixLibrary.dll" Source="$(var.MixLibrary.TargetDir)MixLibrary.dll"></File>
+		</Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>
